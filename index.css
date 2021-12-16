@@ -1,41 +1,41 @@
 @font-face {
     font-family: 'Rainbow';
-    src: url(..//Fonts/LanaDelRey.ttf);
+    src: url(..//ldr-discography/fonts/LanaDelRey.ttf);
 }
 
 @font-face{
     font-family: 'Gotham-Bold';
-    src: url(..//Fonts/Gotham-Bold.otf)
+    src: url(..//ldr-discography/fonts/GothamMedium_1.ttf)
 }
 
 @font-face{
     font-family: 'Gotham-Medium';
-    src: url(..//Fonts/GothamMedium_1.ttf)
+    src: url(..//ldr-discography/fonts/GothamMedium_1.ttf)
 }
 
 @font-face{
     font-family: 'Joanna';
-    src: url(..//Fonts/Joanna.otf)
+    src: url(..//ldr-discography/fonts/Joanna.otf)
 }
 
 @font-face{
     font-family: 'Caslon';
-    src: url(..//Fonts/Caslon.ttf)
+    src: url(..//ldr-discography/fonts/Caslon.ttf)
 }
 
 @font-face{
     font-family: 'Boom';
-    src: url(..//Fonts/Boom.ttf)
+    src: url(..//ldr-discography/fonts/Boom.ttf)
 }
 
 @font-face{
     font-family: 'Marons';
-    src: url(..//Fonts/Marons.otf)
+    src: url(..//ldr-discography/fonts/Marons.otf)
 }
 
 @font-face {
     font-family: 'bluebanisters';
-    src: url(OPTIModern-Two.ttf.woff);
+    src: url(..//ldr-discography/fonts/OPTIModern-Two.ttf.woff);
 }
 
 *{
