@@ -1,41 +1,41 @@
 @font-face {
     font-family: 'Rainbow';
-    src: url(..//ldr-discography/fonts/LanaDelRey.ttf);
+    src: url(fonts/LanaDelRey.ttf)
 }
 
 @font-face{
     font-family: 'Gotham-Bold';
-    src: url(..//ldr-discography/fonts/GothamMedium_1.ttf)
+    src: url(fonts/GothamMedium_1.ttf)
 }
 
 @font-face{
     font-family: 'Gotham-Medium';
-    src: url(..//ldr-discography/fonts/GothamMedium_1.ttf)
+    src: url(/fonts/GothamMedium_1.ttf)
 }
 
 @font-face{
     font-family: 'Joanna';
-    src: url(..//ldr-discography/fonts/Joanna.otf)
+    src: url(fonts/Joanna.otf)
 }
 
 @font-face{
     font-family: 'Caslon';
-    src: url(..//ldr-discography/fonts/Caslon.ttf)
+    src: url(fonts/Caslon.ttf)
 }
 
 @font-face{
     font-family: 'Boom';
-    src: url(..//ldr-discography/fonts/Boom.ttf)
+    src: url(fonts/Boom.ttf)
 }
 
 @font-face{
     font-family: 'Marons';
-    src: url(..//ldr-discography/fonts/Marons.otf)
+    src: url(fonts/Marons.otf)
 }
 
 @font-face {
     font-family: 'bluebanisters';
-    src: url(..//ldr-discography/fonts/OPTIModern-Two.ttf.woff);
+    src: url(fonts/OPTIModern-Two.ttf.woff);
 }
 
 *{
