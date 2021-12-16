@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'Rainbow';
+    src: url(..//Fonts/LanaDelRey.ttf);
+}
+
+@font-face{
+    font-family: 'Gotham-Bold';
+    src: url(..//Fonts/Gotham-Bold.otf)
+}
+
+@font-face{
+    font-family: 'Gotham-Medium';
+    src: url(..//Fonts/GothamMedium_1.ttf)
+}
+
+@font-face{
+    font-family: 'Joanna';
+    src: url(..//Fonts/Joanna.otf)
+}
+
+@font-face{
+    font-family: 'Caslon';
+    src: url(..//Fonts/Caslon.ttf)
+}
+
+@font-face{
+    font-family: 'Boom';
+    src: url(..//Fonts/Boom.ttf)
+}
+
+@font-face{
+    font-family: 'Marons';
+    src: url(..//Fonts/Marons.otf)
+}
+
+@font-face {
+    font-family: 'bluebanisters';
+    src: url(OPTIModern-Two.ttf.woff);
+}
+
+*{
+    font-family: 'Gotham-Medium';
+    color: white;
+}
+
+html body{
+    background-color:rgb(0, 0, 0);
+
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.title {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: 'Rainbow';
+    text-shadow: black 5px 5px 5px;
+    font-size: 200px;
+    font-weight: 300;
+    width: 100%;
+    animation: color-change-title 48s infinite;
+}
+
+@keyframes color-change-title {
+    0%{color: #6d93ba;}
+    12.5%{color: #e5ca84}
+    25%{color: rgb(207, 207, 207);}
+    37.5%{ color: #466288;}
+    50%{ color: #a2090b;}
+    62.5%{ color: #eff141;}
+    75%{color: rgb(207, 207, 207);}
+    87.5%{color:#673d37;}
+    100%{color: white};
+}
+
+h2 {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: 'Rainbow';
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 15px;
+}
+
+.header {
+    line-height: 3px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 10%,
+    rgb(0, 0, 0) 70%), url(..//img/header-bkg-fix.jpeg);
+    background-size: cover;
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Gotham-Bold';
+    line-height: 0;
+    text-shadow: black 5px 5px 5px;
+    align-self: center;
+}
+
+.description {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    padding: 10px 20px 20px 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+p {
+    color: white;
+    font-family: 'Gotham-Medium';
+    text-shadow: black 2px 2px 10px;
+    line-height: 1;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    padding:50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.section img {
+    width: 400px;
+    height: 25%;
+    margin: 25px;
+    padding: 15px 15px;
+    position: relative;
+    box-shadow: black 8px 8px 40px;
+    transition: transform 1s;
+}
+
+.section img:hover{
+    transform: scale(1.1);
+}
+
+.text {
+    position: relative;
+    margin: auto;
+    width: 750px;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.albums {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 95%;
+}
+
+#hyphen{
+    font-size: 50px;
+    line-height: 0;
+}
+
+#btd{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 5%,
+    rgb(101, 132, 186)), url(..//img/btd-bkg.jpeg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position-y: center;
+}
+
+#btd-title
+{
+    font-family: 'Rainbow';
+    font-weight: lighter;
+    font-size: 6rem;
+    color: #6d93ba;
+    text-shadow: black 5px 5px 5px;
+    line-height: 0;
+    margin-bottom: 50px;
+    animation: color-change 3s infinite;
+}
+
+#btd-spotify{
+    padding: 20px 20px;
+}
+
+@keyframes color-change{
+    0%{color: #6d93ba; }
+    50%{color: #a4ccf5;}
+    100%{color: #6d93ba; }
+}
+
+#paradise{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 20%,
+    rgb(241, 167, 82)), url(..//img/paradise-bkg.jpeg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#paradise-title{
+    font-family: 'Rainbow';
+    font-weight: lighter;
+    font-size: 5rem;
+    color: #e5ca84;
+    text-shadow: black 5px 5px 5px;
+    line-height: 0;
+    margin-bottom: 50px;
+    animation: color-change-2 3s infinite;
+}
+
+@keyframes color-change-2{
+    0%{color: #e5ca84; }
+    50%{color: #bba469;}
+    100%{color:#e5ca84; }
+}
+
+#ultraviolence {
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 10%,
+    rgb(0, 0, 0)), url(..//img/ultraviolence-bkg.jpeg);
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+#ultraviolence-title{
+    font-family: 'Rainbow';
+    font-weight: lighter;
+    font-size: 5rem;
+    color: white;
+    text-shadow: black 5px 5px 5px;
+    line-height: 0;
+    margin-bottom: 50px;
+    animation: color-change-3 3s infinite;
+}
+
+@keyframes color-change-3{
+    0%{color:white; }
+    50%{color: rgb(207, 207, 207);}
+    100%{color:white; }
+}
+
+#honeymoon{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 10%,
+    rgb(214, 62, 52)), url(..//img/honeymoon-bkg-fix.jpeg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+#honeymoon-title{
+    font-family: 'Joanna';
+    font-weight: lighter;
+    font-size: 5rem;
+    color: #466288;
+    text-shadow: black 5px 5px 5px;
+    line-height: 0;
+    margin-bottom: 50px;
+    animation: color-change-4 3s infinite;
+}
+
+@keyframes color-change-4{
+    0%{color:#466288;}
+    50%{color: #1e2f65;}
+    100%{color: #466288;}
+}
+
+#lfl{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 2%,
+    rgb(212, 216, 197)), url(..//img/lfl-bkg.jpeg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lfl-title{
+    font-family: 'Caslon';
+    font-weight: lighter;
+    font-size: 4rem;
+    color: #a2090b;
+    text-shadow: black 5px 5px 5px;
+    line-height: 0;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+    animation: color-change-5 3s infinite;
+}
+
+@keyframes color-change-5 {
+    0%{color:#a2090b;}
+    50%{color:#c70b0e;}
+    100%{color:#a2090b;}
+}
+
+#nfr{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 3%,
+    rgb(251, 253, 131)), url(..//img/nfr-bkg.jpeg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+#nfr-title{
+    font-family: 'Boom';
+    font-weight: lighter;
+    font-size: 3rem;
+    -webkit-text-stroke: 2px black;
+    color: #eedabf;
+    text-shadow: black 5px 5px;
+    line-height: 0;
+    margin-bottom: 50px;
+    animation: color-change-6 3s infinite;
+}
+
+@keyframes color-change-6{
+    0%{ color: #eedabf;}
+    50%{ color: #d4c4a9;}
+    100%{ color: #eedabf;}
+}
+
+#cocc{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 10%,
+    rgb(46, 45, 45)), url(..//img/cocc-bkg.jpeg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cocc-title{
+    flex-wrap: wrap;
+    font-family: 'Marons';
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: black 5px 5px 5px;
+    line-height: 0;
+    margin-bottom: 50px;
+    animation: color-change-3 3s infinite;
+}
+
+#bb{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 10%,
+    rgb(66, 33, 2)), url(..//img/blue\ banisters.jpeg);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bb-title{
+    flex-wrap: wrap;
+    font-family: 'bluebanisters';
+    font-weight: bold;
+    font-size: 3rem;
+    color:#673d37;
+    text-shadow: black 5px 5px 5px;
+    line-height: 0;
+    margin-bottom: 50px;
+    animation: color-change-7 3s infinite;
+}
+
+@keyframes color-change-7{
+    0%{ color: #eedabf;}
+    50%{ color: #673d37;}
+    100%{ color: #eedabf;}
+}
